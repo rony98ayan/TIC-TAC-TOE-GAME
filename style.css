@@ -1,0 +1,68 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+nav h1
+{
+    background-color: rgb(190, 18, 199);
+    color: white;
+    padding: 15px;
+}
+.container
+{
+    display: flex;
+    gap: 109px;
+}
+.game-info img
+{
+    width: 0px;
+    transition: width 1s ease-in-out;
+}
+.info
+{
+    display: grid;
+    grid-template-columns: repeat(3, 10vw);
+    
+    justify-content: center;
+    padding-left: 320px;
+    
+    
+}
+.box:hover
+{
+   background-color:hotpink;
+}
+.box
+{
+    border: 2px solid black;
+    padding: 50px;
+    cursor: pointer;
+    font-size: 50px;
+
+}
+.bl-0
+{
+    border-left: 0;
+}
+.br-0
+{
+    border-right: 0;
+}
+.bt-0
+{
+    border-top: 0;
+}
+.bb-0
+{
+    border-bottom: 0;
+}
+img{
+    width: 191px;
+    height: 133px;
+}
+#btn
+{
+    padding: 5px;
+    margin: 43px;
+}
